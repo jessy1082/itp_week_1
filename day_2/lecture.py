@@ -82,7 +82,7 @@ print(type(exampleInt))
 # -	        Subtraction	    x - y
 # *	        Multiplication	x * y
 # /	        Division	    x / y
-# %	        Modulus	        x % y
+# %	        Modulus	        x % y # remainder
 # **	    Exponentiation	x ** y
 # //	    Floor division	x // y
 
@@ -91,15 +91,15 @@ print(type(exampleInt))
 sum = 4 + 4
 sub = 1 - 100 # it can evaluate to negatives too!
 div = 10/5 # even if it divides evenly, it returns a float.
-floor = 10/3 # to only get whole numbers, we use floor division.
+floor = 10//3 # to only get whole numbers, we use floor division.
 
 # ASSIGNMENT OPERATORS
 
 # we can shorthand the assignment of arithmetic operations by using assignment operators.
 
 # Operator	Example	    Same As
-# =	        x = 5	    x = 5
-# +=	    x += 3	    x = x + 3
+# =	        x = 5	    x = 5  assignment operator
+# +=	    x += 3	    x = x + 3   
 # -=	    x -= 3	    x = x - 3
 # *=	    x *= 3	    x = x * 3
 # /=	    x /= 3	    x = x / 3
@@ -116,9 +116,9 @@ print(x) # 9
 y += 3
 # NameError: name 'y' is not defined
 
-y = "3"
-y += 3
-# TypeError: can only concatenate str (not "int") to str
+y = "3" 
+y += 3   
+# Gives error-> TypeError: can only concatenate str (not "int") to str
 
 # BOOLEANS
 

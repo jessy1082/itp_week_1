@@ -14,7 +14,7 @@
 # Windows: Ctrl + /
 # Mac: Cmd + /
 # Now let's prevent the code below from running by commenting it out!
-eat_bad_pizza()
+# eat_bad_pizza()
 
 ##################################
 # dont worry about the error     #
@@ -35,7 +35,7 @@ eat_bad_pizza()
 
 # Replace CHANGE_ME to your favorite color and run the code in your terminal.
 
-print("CHANGE_ME")
+print("red")
 
 # Currently what we're printing is just a string.
 
@@ -68,6 +68,8 @@ and end of the string"""
 
 # Unlike other programming languages, it doesnt not require a command for declaring a variable.
 
+my_variable ="a string"
+
 # Rules for variable names
 # must start with a letter or the underscore character
 # cannot start with a number
@@ -80,17 +82,17 @@ and end of the string"""
     # 2. myFavoriteBand - Camel Case
     # 3. my_favorite_band - Snake Case
 
-name = "Daniel"
+name = "Jessica"
 
 # Now, instead of printing string literals, we can print variables which store the string!
 
 # Change the name above to your name and uncomment the line below!
 
-# print(name)
+print(name)
 
 # We can combine like-elements, even as variables. (STRING CONCATENATION)
 
-# print("Hello my name is " + name)
+print("Hello my name is " + name)
 
 # INPUT
 
@@ -98,6 +100,8 @@ name = "Daniel"
 # The argument is a string that acts as a prompt which is printed.
 # the function waits for the user input.
 
-# We can take the user input and assign it to a variable.
+# We can take the user input and assign it to 23a variable.
 
 # Review the hello.py to see an example.
+user_age= input("What is your age?")
+print("Wow, you look good for " + user_age)
